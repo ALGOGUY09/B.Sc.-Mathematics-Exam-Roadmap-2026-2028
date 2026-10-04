@@ -11,6 +11,7 @@ app.get('/', (c) => c.html(`<!doctype html>
 <meta name="theme-color" content="#FBF6E9">
 <meta name="description" content="Explore 38 examination and career routes for B.Sc. Mathematics graduates in India. An interactive 2026–2028 timeline, quarterly planner and career comparison.">
 <title>B.Sc. Mathematics — Exam Roadmap 2026–2028</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23FBF6E9'/%3E%3Ctext x='16' y='24' text-anchor='middle' font-family='Georgia' font-size='26' fill='%23E0483A'%3EM%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="/static/style.css">
 <script type="module" src="/static/app.js"></script>
 </head>
