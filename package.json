@@ -5,6 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "wrangler pages dev",
+    "dev:sandbox": "wrangler pages dev dist --ip 0.0.0.0 --port 3000",
+    "test": "playwright test tests/roadmap.spec.js --workers=1 --reporter=line",
     "deploy": "npm run build && wrangler pages deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
@@ -14,6 +16,7 @@
   "devDependencies": {
     "@hono/vite-build": "^1.11.1",
     "@hono/vite-dev-server": "^0.26.1",
+    "@playwright/test": "^1.63.0",
     "vite": "^8.1.4",
     "wrangler": "^4.110.0"
   }

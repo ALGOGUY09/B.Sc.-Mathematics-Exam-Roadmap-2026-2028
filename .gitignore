@@ -29,5 +29,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# test output and local evidence
+test-results/
+playwright-report/
+
+# sensitive local overrides
+.env.*
+.dev.vars.*
+
 # misc
 .DS_Store
